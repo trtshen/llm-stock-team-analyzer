@@ -1,0 +1,42 @@
+{
+  "name": "llm-stock-team-analyzer",
+  "version": "1.0.0",
+  "description": "AI-Powered Multi-Agent Stock Analysis Framework with Web UI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "stock-analysis",
+    "ai",
+    "agents",
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.11.0",
+    "daisyui": "^5.0.54",
+    "eslint": "^9.34.0",
+    "eslint-config-next": "^15.5.2",
+    "next": "^15.5.2",
+    "openai": "^5.16.0",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2",
+    "yahoo-finance2": "^2.13.3"
+  }
+}
